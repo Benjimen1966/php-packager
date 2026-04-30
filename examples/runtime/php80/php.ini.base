@@ -1,0 +1,5 @@
+display_errors=Off
+log_errors=On
+error_reporting=E_ALL
+date.timezone=UTC
+; extension lines are generated from manifest requirements
