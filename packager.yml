@@ -1,0 +1,15 @@
+app_name: Mywbstd
+app_version: 1.0.0
+app_dir: app/wb-std
+document_root: public
+entrypoint: public/index.php
+healthcheck_path: public/healthz.php
+php_runtime: runtime/php80
+output_dir: dist
+work_dir: work
+open_mode: browser
+exclude:
+  - .git
+  - node_modules
+  - tests
+  - docs

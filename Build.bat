@@ -1,0 +1,1 @@
+dist\embed_cli.exe dist\launcher_stub.exe staging dist\Mywbstd.exe 1.0.0
