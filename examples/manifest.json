@@ -1,0 +1,23 @@
+{
+  "manifest_version": 1,
+  "app_name": "Mywbstd",
+  "app_version": "1.0.0",
+  "php_runtime": "php80",
+  "document_root": "public",
+  "entrypoint": "index.php",
+  "healthcheck_path": "public/healthz.php",
+  "php_extensions_required": [
+    "bcmath",
+    "curl",
+    "mbstring",
+    "mysqli",
+    "openssl",
+    "pdo_mysql"
+  ],
+  "php_ini": {
+    "memory_limit": "256M",
+    "max_execution_time": "60",
+    "post_max_size": "32M",
+    "upload_max_filesize": "32M"
+  }
+}

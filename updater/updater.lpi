@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="PHP Packager Updater"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="updater.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+    </Units>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <Target>
+        <Filename Value="updater"/>
+      </Target>
+      <SearchPaths>
+        <OtherUnitFiles Value="src;..\shared\src"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+  </ProjectOptions>
+  <CompilerOptions>
+    <SearchPaths>
+      <OtherUnitFiles Value="src;..\shared\src"/>
+    </SearchPaths>
+  </CompilerOptions>
+</CONFIG>
